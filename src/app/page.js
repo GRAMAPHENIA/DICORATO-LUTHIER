@@ -8,7 +8,7 @@ import BodyBuconero from "@/components/BodyBuconero.jsx";
 
 export default function Home() {
   return (
-    <main className="lg:px-24 py-5">
+    <main className="py-2">
       <Header />
       <Body />
       <Marcas />

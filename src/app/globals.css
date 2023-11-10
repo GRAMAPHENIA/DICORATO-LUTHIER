@@ -10,7 +10,6 @@
 }
 
 body {
-
   color: var(--light);
   background: var(--dark);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -20,7 +19,7 @@ body {
   box-sizing: border-box;
   align-content: center;
   width: 1080px;
-  max-width: calc(100% - 4rem);
+  max-width: calc(100% - 2rem);
   line-height: 1.6;
 }
 
