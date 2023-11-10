@@ -10,9 +10,8 @@ import Clavijas from "../../../../public/galeria/buconero/clavijas.png";
 export default function Buconero() {
   return (
     <>
-      <section className="grid col-span-2 row-span-4 gap-2">
-
-        <header className="flex justify-between items-center rounded-xl col-span-2">
+      <section className=" lg:grid lg:col-span-2 lg:row-span-4 lg:gap-2">
+        <header className="my-2 flex justify-between items-center rounded-xl col-span-2">
           <p className="bg-[#14181b] text-lg text-center px-6 py-4 rounded-lg lg:text-4xl row-start-1 row-end-2">
             Buconero
           </p>
@@ -22,7 +21,7 @@ export default function Buconero() {
           </figure>
         </header>
 
-        <article className="bg-[#14181b] flex justify-center rounded-xl col-start-1 col-end-2 row-start-2 row-end-4">
+        <article className="bg-[#14181b] my-2 lg:my-0 flex justify-center rounded-xl col-start-1 col-end-2 row-start-2 row-end-4">
           <figure>
             <Image
               src={CuerpoDetalle}
@@ -33,7 +32,7 @@ export default function Buconero() {
           </figure>
         </article>
 
-        <article className="bg-[#14181b] rounded-xl col-start-2 col-end-3 row-start-2 row-end-3">
+        <article className="bg-[#14181b] mb-2 lg:mb-0 rounded-xl col-start-2 col-end-3 row-start-2 row-end-3">
           <figure>
             <Image
               src={Cuerpo}
@@ -44,7 +43,7 @@ export default function Buconero() {
           </figure>
         </article>
 
-        <article className="bg-[#14181b] rounded-xl col-start-2 col-end-3 row-start-3 row-end-4">
+        <article className="bg-[#14181b]  rounded-xl col-start-2 col-end-3 row-start-3 row-end-4">
           <figure>
             <Image
               src={Clavijas}
