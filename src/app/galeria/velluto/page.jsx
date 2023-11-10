@@ -8,7 +8,7 @@ import Clavijas from "../../../../public/galeria/clavijas.png";
 export default function Velluto() {
   return (
     <>
-      <header className="flex justify-between items-center px-2 rounded-xl bg-[#14181b] col-span-full ">
+      <header className="flex justify-between items-center px-8 rounded-xl bg-[#14181b] col-span-full ">
         <p className=" text-2xl lg:text-4xl">VELLUTO</p>
         <p className=" text-xl text-center px-4 py-3 my-4 border-2 border-[#393c40]  hover:bg-[#20262b] rounded-full">
          + info
