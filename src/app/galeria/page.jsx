@@ -5,12 +5,10 @@ export default function Galeria() {
   return (
     <>
       
-        <section className="flex flex-col gap-2 justify-center content-center rounded-2xl lg:grid lg:grid-cols-4 px-4 lg:px-24  pb-2 ">
+        <section className="grid mt-10 grid-cols-2 lg:grid lg:grid-cols-2 lg:px-24">
           <Buconero />
         </section>
-        <section className="flex flex-col gap-2 justify-center content-center rounded-2xl lg:grid lg:grid-cols-4 px-4 lg:px-24  pb-2  ">
-          <Velluto />
-        </section>
+        
      
     </>
   );
