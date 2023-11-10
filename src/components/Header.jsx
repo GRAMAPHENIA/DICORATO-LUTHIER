@@ -18,9 +18,6 @@ export default function Header() {
         />
       </figure>
       <div className="flex align-middle col-start-4 col-end-5 justify-end gap-4 mr-4">
-        {/* <p>instrumentos</p>
-        <p>nosotros</p>
-        <p>contacto</p> */}
         <Image
           width="35"
           height="auto"
