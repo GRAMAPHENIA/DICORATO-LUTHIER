@@ -7,7 +7,7 @@ export default function Layout({ children }) {
       <figure className=" p-4 row-start-1 row-end-3 col-start-1 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 rounded-2xl">
         <Link
           href="/"
-          className="absolute top-5 left-5 lg:left-12 text-xl text-center w-[55px] py-3 border-2 border-[#393c40]  hover:bg-[#20262b] rounded-full"
+          className="absolute top-1 left-1 lg:left-12 text-xl text-center w-[40px] py-1 border-2 border-[#393c40]  hover:bg-[#20262b] rounded-full"
         >
           ↩
         </Link>

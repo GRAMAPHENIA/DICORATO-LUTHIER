@@ -11,7 +11,7 @@ export default function Buconero() {
       <header className="flex justify-between items-center px-4 rounded-xl bg-[#14181b] col-span-full ">
         <p className=" text-2xl lg:text-4xl">BUCONERO</p>
         <p className=" text-xl text-center px-4 py-3 my-4 border-2 border-[#393c40]  hover:bg-[#20262b] rounded-full">
-        + info
+          + info
         </p>
       </header>
       <article className="bg-[#14181b] flex justify-center rounded-xl col-start-1 col-end-3 row-start-2 row-end-4">
