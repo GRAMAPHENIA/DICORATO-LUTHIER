@@ -13,7 +13,7 @@ import Presentacion from "@/components/Presentacion.jsx";
 export default function Buconero() {
   return (
     <section className=" grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4 border border-[#393c40]">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Buconero</p>
       </figure>
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
@@ -30,7 +30,7 @@ export default function Buconero() {
           detalles
         </Link>
       </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4 border border-[#393c40]">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Velluto</p>
       </figure>
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
@@ -47,7 +47,7 @@ export default function Buconero() {
           detalles
         </Link>
       </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4 border border-[#393c40]">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Eira</p>
       </figure>
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
