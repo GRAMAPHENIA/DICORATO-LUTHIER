@@ -4,7 +4,7 @@ import Velluto from "./velluto/page.jsx";
 export default function Galeria() {
   return (
     <>
-      <section className="">
+      <section>
         <Buconero />
       </section>
     </>
