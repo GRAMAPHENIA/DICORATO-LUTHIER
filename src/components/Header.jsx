@@ -10,7 +10,7 @@ export default function Header() {
     <header className="grid grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full mt-2">
       <figure>
         <Image
-          className="ml-1 rotate-45 text-center"
+          className="ml-1 text-center"
           src={Pua}
           alt="Pua de guitarra"
           width="30"

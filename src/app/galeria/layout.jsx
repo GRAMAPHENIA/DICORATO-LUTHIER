@@ -9,10 +9,11 @@ export default function Layout({ children }) {
     <>
       <section className="grid grid-cols-3 lg:grid-cols-6 gap-2 text-center mt-2">
         <Link
-          className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b] border border-[#101112]"
+          className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]"
           href="/"
         >
           <Image
+            className="rotate-180"
             src={Arrow}
             height="auto"
             width="auto"
@@ -20,23 +21,23 @@ export default function Layout({ children }) {
           />
         </Link>
 
-        <p className="flex justify-center p-2  bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex text-2xl justify-center px-2 py-1  bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Buconero
         </p>
 
-        <p className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex text-2xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Velluto
         </p>
 
-        <p className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex text-2xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Eira
         </p>
 
-        <p className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex text-2xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Piccolina
         </p>
 
-        <p className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex text-2xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Contactos
         </p>
       </section>
