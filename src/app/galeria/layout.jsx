@@ -21,23 +21,23 @@ export default function Layout({ children }) {
           />
         </Link>
 
-        <p className="flex text-xl justify-center px-2 py-1  bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex justify-center px-2 py-1  bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Buconero
         </p>
 
-        <p className="flex text-xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Velluto
         </p>
 
-        <p className="flex text-xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Eira
         </p>
 
-        <p className="flex text-xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Piccolina
         </p>
 
-        <p className="flex text-xl justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
+        <p className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]">
           Contactos
         </p>
       </section>
