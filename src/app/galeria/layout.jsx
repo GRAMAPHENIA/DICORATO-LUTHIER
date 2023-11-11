@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     <>
       <section className="grid grid-cols-3 lg:grid-cols-6 gap-2 text-center mt-2">
         <Link
-          className="flex justify-center px-2 py-1 bg-[#14181b] rounded-full hover:bg-[#20262b]"
+          className="flex justify-center px-2  bg-[#14181b] rounded-full hover:bg-[#20262b]"
           href="/"
         >
           <Image
