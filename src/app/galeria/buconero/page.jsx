@@ -16,7 +16,7 @@ export default function Buconero() {
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Buconero</p>
       </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
         <Image
           src={BuconeroHorz}
           alt="Logo de dicorato luthier"
@@ -33,7 +33,7 @@ export default function Buconero() {
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Velluto</p>
       </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
         <Image
           src={VellutoHorz}
           alt="Logo de dicorato luthier"
@@ -50,7 +50,7 @@ export default function Buconero() {
       <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
         <p>Modelo Eira</p>
       </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-36">
+      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
         <Image
           src={EiraHorz}
           alt="Logo de dicorato luthier"
