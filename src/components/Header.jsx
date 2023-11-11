@@ -7,7 +7,7 @@ import Email from "../../public/email.svg";
 
 export default function Header() {
   return (
-    <header className="grid grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full">
+    <header className="grid grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full mt-2">
       <figure>
         <Image
           className="ml-1 rotate-45 text-center"
