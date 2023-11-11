@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Volver from "../../../public/volver.svg";
+import Arrow from "../../../public/galeria/arrow-right.svg";
 
 export default function Layout({ children }) {
   return (
@@ -11,7 +12,12 @@ export default function Layout({ children }) {
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#20262b] border border-[#101112]"
           href="/"
         >
-          <p className="text-2xl">↩</p>
+          <Image
+            src={Arrow}
+            height="auto"
+            width="auto"
+            alt="detalle de la guitarra Buconero del luthier esteban"
+          />
         </Link>
 
         <p className="flex justify-center p-2  bg-[#14181b] rounded-full hover:bg-[#20262b]">
