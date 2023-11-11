@@ -6,19 +6,26 @@ import Volver from "../../../public/volver.svg";
 export default function Layout({ children }) {
   return (
     <>
-      <figure className="p-4 row-start-1 row-end-3 col-start-1 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 rounded-2xl">
-        <Link
-          href="/"
-          className="absolute top-2 left-2 lg:top-6 lg:left-6 border border-slate-800 bg-[#14181b] hover:bg-[#20262b] text-xl text-center px-2 py-2 my-2 rounded-full"
-        >
-          <Image
-            src={Volver}
-            height="auto"
-            width="auto"
-            alt="detalle de la guitarra Buconero del luthier esteban"
-          />
+      <section className="grid grid-cols-5 gap-2 text-xl row-span-2 mt-4 lg:mx-16 lg:my-4 ">
+        <Link href="/">
+          <p className="bg-[#14181b] text-center py-2 rounded-full col-start-1 col-end-2 row-start-1 row-end-2 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
+            ↩
+          </p>
         </Link>
-      </figure>
+        <p className="bg-[#14181b] text-center py-2 rounded-full col-start-2 col-end-4 row-start-1 row-end-2 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2">
+          Buconero
+        </p>
+        <p className="bg-[#14181b] text-center py-2 rounded-full col-start-4 col-end-6 row-start-1 row-end-2 lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2">
+          Velluto
+        </p>
+        <p className="bg-[#14181b] text-center py-2 rounded-full col-start-1 col-end-3 row-start-2 row-end-3 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-2">
+          Eira
+        </p>
+        <p className="bg-[#14181b] text-center py-2 rounded-full col-start-3 col-end-6 row-start-2 row-end-3 lg:col-start-5 lg:col-end-6 lg:row-start-1 lg:row-end-2">
+          Picolina
+        </p>
+      </section>
+
       <div>{children}</div>
     </>
   );
