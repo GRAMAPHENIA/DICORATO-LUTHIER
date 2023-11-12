@@ -4,11 +4,7 @@ import Link from "next/link";
 import BuconeroHorz from "../../../../public/croquis/buconero-horz.svg";
 import VellutoHorz from "../../../../public/croquis/velluto-horz.svg";
 import EiraHorz from "../../../../public/croquis/eira-horz.svg";
-import CuerpoDetalle from "../../../../public/galeria/buconero/cuerpo-detalle.png";
-import clavijas from "../../../../public/galeria/buconero/clavijas.png";
 
-import Aside from "@/components/Aside.jsx";
-import Presentacion from "@/components/Presentacion.jsx";
 
 export default function Buconero() {
   return (
