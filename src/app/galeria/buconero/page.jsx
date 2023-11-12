@@ -1,65 +1,69 @@
+
 import Image from "next/image";
 import Link from "next/link";
 
-import BuconeroHorz from "../../../../public/croquis/buconero-horz.svg";
-import VellutoHorz from "../../../../public/croquis/velluto-horz.svg";
-import EiraHorz from "../../../../public/croquis/eira-horz.svg";
-
-
-export default function Buconero() {
+export default function Guitarras() {
   return (
-    <section className=" grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-        <p>Modelo Buconero</p>
-      </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-        <Image
-          src={BuconeroHorz}
-          alt="Logo de dicorato luthier"
-          width="auto"
-          height="auto"
-        />
-        <Link
-          href="/"
-          className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-2 border-[#393c40] hover:bg-[#20262b] rounded-full"
-        >
-          detalles
-        </Link>
-      </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-        <p>Modelo Velluto</p>
-      </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-        <Image
-          src={VellutoHorz}
-          alt="Logo de dicorato luthier"
-          width="auto"
-          height="auto"
-        />
-        <Link
-          href="/"
-          className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-2 border-[#393c40] hover:bg-[#20262b] rounded-full"
-        >
-          detalles
-        </Link>
-      </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-        <p>Modelo Eira</p>
-      </figure>
-      <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-        <Image
-          src={EiraHorz}
-          alt="Logo de dicorato luthier"
-          width="auto"
-          height="auto"
-        />
-        <Link
-          href="/"
-          className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-2 border-[#393c40] hover:bg-[#20262b] rounded-full"
-        >
-          detalles
-        </Link>
-      </figure>
+    <section className="px-2 lg:px-24 pt-2">
+      <article className="mb-2 gap-2 grid grid-rows-6 grid-cols-2 lg:mx-15 lg:grid-cols-4 ">
+        <figure className=" p-4 row-start-1 row-end-3 col-start-1 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
+          <Link
+            href="/"
+            className="absolute top-5 left-5 lg:left-28 text-xl text-center w-[55px] px-4 py-3 border-2 border-[#393c40]  hover:bg-[#20262b] rounded-full"
+          >
+            ↩
+          </Link>
+        </figure>
+
+        <figure className="p-4 lg:col-start-2 lg:col-end-3 bg-[#14181b] rounded-2xl">
+          2
+        </figure>
+
+        <figure className="p-4 lg:col-start-3 lg:col-end-4 bg-[#14181b] rounded-2xl">
+          3
+        </figure>
+
+        <figure className="p-4 row-start-4 row-end-6 col-start-1 col-end-2 lg:row-start-1 lg:row-end-7 lg:col-start-4 lg:col-end-5 bg-[#14181b] rounded-2xl">
+          4
+        </figure>
+
+        <figure className="p-4 row-start-4 row-end-6 col-start-2 col-end-3 lg:row-start-4 lg:row-end-7 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
+          5
+        </figure>
+
+        <figure className="p-4 row-start-8 row-end-9 col-start-1 col-end-3 lg:row-start-2 lg:row-end-7 lg:col-start-2 lg:col-end-4 bg-[#14181b] rounded-2xl">
+          6
+        </figure>
+      </article>
+
+      <article className=" gap-2 grid grid-rows-3 grid-cols-3 lg:grid-cols-4 ">
+        <figure className="h-[250px] p-4 row-start-1 row-end-6 col-start-1 col-end-2 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
+          A
+        </figure>
+
+        <figure className="h-[250px] p-4 row-start-1 row-end-6 col-start-2 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-4 lg:col-end-6 bg-[#14181b] rounded-2xl">
+          B
+        </figure>
+
+        <figure className="h-[250px] p-4 row-start-1 row-end-6 col-start-3 col-end-4 lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-4 bg-[#14181b] rounded-2xl">
+          C
+        </figure>
+      </article>
+
+      <article className="mt-2 gap-2 grid grid-rows-1 grid-cols-3 lg:grid-cols-4 ">
+        <figure className="h-[125px] p-4 row-start-1 row-end-2 col-start-1 col-end-2 lg:row-start-1 lg:row-end-2 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
+          A
+        </figure>
+
+        <figure className="h-[125px] p-4 row-start-1 row-end-2 col-start-2 col-end-3 lg:row-start-1 lg:row-end-2 lg:col-start-2 lg:col-end-4 bg-[#14181b] rounded-2xl">
+          B
+        </figure>
+
+        <figure className="h-[1325x] p-4 row-start-1 row-end-2 col-start-3 col-end-4 lg:row-start-1 lg:row-end-2 lg:col-start-4 lg:col-end-6 bg-[#14181b] rounded-2xl">
+          C
+        </figure>
+      </article>
     </section>
   );
 }
+

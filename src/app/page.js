@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Header from "@/components/Header.jsx";
 import Body from "@/components/Body.jsx";
-import Marcas from "@/components/Marcas.jsx";
-import BodyBuconero from "@/components/BodyBuconero.jsx";
+import Navegacion from "@/components/Navegacion.jsx";
+
+import Galeria from "@/components/Galeria.jsx";
+import Contactos from "@/components/Contactos.jsx";
+
+// import HeaderInstrumentos from "@/components/HeaderInstrumentos.jsx";
+// import HeaderGaleria from "@/components/HeaderGaleria.jsx";
 
 export default function Home() {
   return (
@@ -10,9 +15,11 @@ export default function Home() {
       <Header />
       {/* <div className="absolute bg-[#3a94d956] -z-10  h-72 w-96 top-[150px] left-[10px] lg:top-[250px] lg:left-[10px] blur-[150px] rounded-full"></div> */}
       <Body />
-      <Marcas />
-      {/* <div className="absolute bg-[#3a89d95f] -z-10  h-96 w-96 top-[250px] left-[10px] lg:top-[900px] lg:right-[10px] blur-[150px] rounded-full"></div> */}
-      <BodyBuconero />
+      <Navegacion />
+      {/* <HeaderGaleria/> */}
+      <Galeria />
+      {/* <HeaderInstrumentos /> */}
+      <Contactos />
     </main>
   );
 }
