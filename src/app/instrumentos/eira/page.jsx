@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Modelo Eira",
+};
+
 export default function Eira() {
   return (
     <>

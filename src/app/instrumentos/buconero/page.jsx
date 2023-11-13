@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Modelo Buconero",
+};
+
 export default function Buconero() {
   return (
     <>

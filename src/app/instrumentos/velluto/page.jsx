@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Modelo Velluto",
+};
+
 export default function Velluto() {
   return (
     <>

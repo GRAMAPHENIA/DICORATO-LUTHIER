@@ -1,12 +1,17 @@
-import Buconero from "./buconero/page.jsx";
-import Velluto from "./velluto/page.jsx";
+import Navegacion from "../../components/navegacion.jsx";
+
+export const metadata = {
+  title: 'Galeria de imagenes',
+}
 
 export default function Galeria() {
   return (
     <>
-      <section>
-        <Buconero />
-      </section>
+    <section className="mt-2">
+      <Navegacion/>
+    </section>
+    
+      <section>galeria</section>
     </>
   );
 }
