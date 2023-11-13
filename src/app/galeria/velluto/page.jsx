@@ -11,7 +11,9 @@ export default function Velluto() {
   return (
     <>
       <header className="flex justify-between items-center rounded-xl col-span-full mt-3">
-        <p className="bg-[#14181b] hover:bg-[#20262b] text-lg text-center px-6 py-4 my-2 rounded-lg lg:text-4xl">Velluto</p>
+        <p className="bg-[#14181b] hover:bg-[#20262b] text-lg text-center px-6 py-4 my-2 rounded-lg lg:text-4xl">
+          Velluto
+        </p>
 
         <figure className="bg-[#14181b] hover:bg-[#20262b] text-xl text-center px-2 py-2 my-2 rounded-full">
           <Image src={Info} height="auto" width="auto" alt="icono info" />

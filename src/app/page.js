@@ -6,9 +6,6 @@ import Navegacion from "@/components/Navegacion.jsx";
 import Galeria from "@/components/Galeria.jsx";
 import Contactos from "@/components/Contactos.jsx";
 
-// import HeaderInstrumentos from "@/components/HeaderInstrumentos.jsx";
-// import HeaderGaleria from "@/components/HeaderGaleria.jsx";
-
 export default function Home() {
   return (
     <main className="relative">
@@ -16,9 +13,7 @@ export default function Home() {
       {/* <div className="absolute bg-[#3a94d956] -z-10  h-72 w-96 top-[150px] left-[10px] lg:top-[250px] lg:left-[10px] blur-[150px] rounded-full"></div> */}
       <Body />
       <Navegacion />
-      {/* <HeaderGaleria/> */}
       <Galeria />
-      {/* <HeaderInstrumentos /> */}
       <Contactos />
     </main>
   );
