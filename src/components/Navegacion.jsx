@@ -26,7 +26,7 @@ export default function Navegacion() {
         href="/nosotros"
         className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]"
       >
-        <p>Nosotros</p>
+        <p>Acerca de</p>
       </Link>
       <Link
         href="/taller"

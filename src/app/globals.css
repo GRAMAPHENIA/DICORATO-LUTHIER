@@ -21,6 +21,7 @@ body {
   width: 1080px;
   max-width: calc(100% - 2rem);
   line-height: 1.6;
+  overflow-y: scroll;
 }
 
 h1 {
