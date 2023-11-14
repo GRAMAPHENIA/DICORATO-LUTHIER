@@ -8,8 +8,8 @@ export default function Presentacion() {
         className="mt-4 ml-4"
         src={Logo}
         alt="Logo de dicorato luthier"
-        width="200"
-        height="auto"
+        height="200"
+        width="auto"
       />
       <h1 className="text-3xl text-white sm:text-4xl lg:text-6xl p-10">
         recursos nativos,

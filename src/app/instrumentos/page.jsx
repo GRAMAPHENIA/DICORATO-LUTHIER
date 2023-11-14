@@ -16,8 +16,9 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
           <p>Modelo Buconero</p>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
+        <figure  className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
+            priority={true}
             src={BuconeroHorz}
             alt="Logo de dicorato luthier"
             width="auto"
@@ -39,6 +40,7 @@ export default function Buconero() {
             alt="Logo de dicorato luthier"
             width="auto"
             height="auto"
+            priority={true}
           />
           <Link
             href="/instrumentos/velluto"
@@ -56,6 +58,7 @@ export default function Buconero() {
             alt="Logo de dicorato luthier"
             width="auto"
             height="auto"
+            priority={true}
           />
           <Link
             href="/instrumentos/eira"
