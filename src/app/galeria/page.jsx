@@ -1,4 +1,4 @@
-import Navegacion from "../../components/navegacion";
+import Navegacion from "@/components/Navegacion.jsx";
 
 export const metadata = {
   title: 'Galeria de imagenes',
