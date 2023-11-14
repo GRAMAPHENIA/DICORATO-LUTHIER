@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import Pua from "../../public/pua.svg";
-import Instagram from "../../public/instagram.svg";
-import Youtube from "../../public/youtube.svg";
-import Email from "../../public/email.svg";
+import Pua from "@/public/pua.svg";
+import Instagram from "@/public/instagram.svg";
+import Youtube from "@/public/youtube.svg";
+import Email from "@/public/email.svg";
 
 export default function HeaderGuitarras() {
   return (

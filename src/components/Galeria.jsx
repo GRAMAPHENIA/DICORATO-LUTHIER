@@ -1,5 +1,5 @@
-import AsideBuconero from "@/components/AsideBuconero.jsx";
-import PresentacionBuconero from "@/components/PresentacionBuconero.jsx";
+import AsideBuconero from "@/components/AsideBuconero";
+import PresentacionBuconero from "@/components/PresentacionBuconero";
 
 export default function BodyBuconero() {
   return (

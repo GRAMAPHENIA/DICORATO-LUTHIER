@@ -1,10 +1,10 @@
 import Image from "next/image";
 // import Link from "next/Link";
 
-import Pua from "../../public/pua.svg";
-import Instagram from "../../public/instagram.svg";
-import Youtube from "../../public/youtube.svg";
-import Wsap from "../../public/wsap.svg";
+import Pua from "@/public/pua.svg";
+import Instagram from "@/public/instagram.svg";
+import Youtube from "@/public/youtube.svg";
+import Wsap from "@/public/wsap.svg";
 
 export default function Header() {
   return (

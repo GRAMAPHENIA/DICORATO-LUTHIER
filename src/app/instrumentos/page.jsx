@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import BuconeroHorz from "../../../public/croquis/buconero-horz.svg";
-import VellutoHorz from "../../../public/croquis/velluto-horz.svg";
-import EiraHorz from "../../../public/croquis/eira-horz.svg";
+import BuconeroHorz from "@/public/croquis/buconero-horz.svg";
+import VellutoHorz from "@/public/croquis/velluto-horz.svg";
+import EiraHorz from "@/public/croquis/eira-horz.svg";
 
 export const metadata = {
   title: "Instrumentos",

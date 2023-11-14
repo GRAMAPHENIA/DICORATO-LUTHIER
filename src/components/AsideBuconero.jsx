@@ -1,5 +1,5 @@
 import Image from "next/image";
-import croquiBuconero from "../../public/croquis/velluto.png";
+import croquiBuconero from "@/public/croquis/velluto.png";
 
 export default function AsideBuconero() {
   return (

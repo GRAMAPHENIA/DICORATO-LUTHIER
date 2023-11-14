@@ -1,5 +1,5 @@
-import Aside from "@/components/Aside.jsx";
-import Presentacion from "@/components/Presentacion.jsx";
+import Aside from "@/components/Aside";
+import Presentacion from "@/components/Presentacion";
 
 export default function Body() {
   return (
